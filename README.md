@@ -1,2 +1,4 @@
-# resume
-LaTeX Resume
+# Resume
+
+## About
+LaTeX source resume. 

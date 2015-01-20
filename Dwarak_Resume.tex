@@ -1,0 +1,142 @@
+% Dwarak_Resume.tex
+% Template by Derek R. Hildreth <derek@derekhildreth.com> http://www.derekhildreth.com 
+% http://www.dwarak.in
+
+
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage[pdftex]{hyperref}
+\hypersetup{
+    colorlinks,%
+    citecolor=black,%
+    filecolor=black,%
+    linkcolor=black,%
+    urlcolor=black 
+    %urlcolor=mygreylink     % can put red here to better visualize the links
+}
+\urlstyle{same}
+\definecolor{mygrey}{gray}{.85}
+\definecolor{mygreylink}{gray}{.40}
+\textheight=9.0in
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{0.375in}
+\addtolength{\textwidth}{0.5in}
+\addtolength{\topmargin}{-.375in}
+\addtolength{\textheight}{0.75in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+
+\newcommand{\ressubsubheading}[2]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textit{#1} & \textit{#2} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+
+\begin{document}
+
+\newcommand{\mywebheader}{
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+	\textbf{\href{http://www.dwarak.in/}{\LARGE Dwaraka Nath}} & \href{mailto:dtsdwarak@gmail.com}{dtsdwarak@gmail.com}\\
+	{\footnotesize \texttt{\#17/66, 2nd Avenue, Prithivipakkam, Ambattur, Chennai}} & \href{http://www.dwarak.in}{http://www.dwarak.in} \\
+	\end{tabular*}
+\\
+\vspace{0.1in}}
+
+% CHANGE HEADER SOURCE HERE
+\mywebheader
+
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Education}
+	\begin{itemize}
+		\item
+			\ressubheading{{Birla Insititute of Technology and Science}}{Pilani, India}{{Master of Engineering in Software Systems};{ CGPA:8.41}}{July 2014 -- May 2016 (expected)}
+		\item
+			\ressubheading{{SSN College of Engineering}}{Chennai, India}{{Bachelor of Engineering in ECE};{ CGPA:7.59}}{August 2009 -- May 2013}
+		\item
+			\ressubheading{{DAV Boys Senior Secondary School}}{Chennai, India}{{AISSE};{ Percentage:94.2}}{May 2009}			
+	\end{itemize} % End Education list
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Experience}
+	\begin{itemize}
+		\item 
+			\ressubheading{{Lister Technologies}}{Chennai, India}
+				{Software Engineer}{July 2013 -- July 2014}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{Web Development - Managing the organization's entire website stack}
+					\resitem{Product - Worked on a eCommerce product's UI}
+					\resitem{A Rails project for a US based client}
+				\end{itemize}
+				}
+
+	\end{itemize}  % End Experience list
+
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{{Skills}}
+	\begin{description}
+		\item[Technologies:] { \footnotesize C/C++ and a pinch of Ruby and Java
+		}
+		\item[Web:] { \footnotesize HTML, CSS, JavaScript/jQuery
+		}
+		\item[Environment:] { \footnotesize
+			Windows, Linux, bash, git, apache2
+		}
+
+	\end{description} % End Skills list
+
+\resheading{\href{https://github.com/dtsdwarak/}{Individual Projects}}
+
+\begin{description}
+\item[\href{https://marketplace.firefox.com/app/secretshare}{SecretShare}:] { \footnotesize Firefox OS Mobile application to share secrets with Friends. Uses \href{https://onetimesecret.com/}{OneTimeSecret API}, IndexedDB memory store \& HTML/CSS/JavaScript for frontend. Published in Firefox OS Marketplace.}
+
+\item[\href{http://compair-dtsdwarak.rhcloud.com/}{ComPair}:] { \footnotesize Used to match your Facebook friends/peers and finds the best pair among the given choices. Built with Rails for backend, Bootstrap for UI and Facebook Graph API for user authentication, fetching data and posting/sharing content over Facebook timelines.\color{red}{\bf Won the best creative appliation award at RedHat's OpenShift DevConf 2014, Czech Republic}}
+
+\item[\href{https://dtsdwarak.github.io/lexico/}{Lexico}] { \footnotesize Responsive web application that uses WebSpeech API. Dictionary powered by Wordnik API}
+
+\item[\href{https://github.com/dtsdwarak/fuse}{Fuse}] { \footnotesize Dropbox like file collaboration framework within a LAN to share files. Used Google Plus API for user authentication, WebRTC for realtime video/audio streaming and chat. Designed the WebUI using HTML/CSS/JavaScript, Java servlets for backend and used MySQL for DB.}
+
+\item[\href{http://flames-dtsdwarak.rhcloud.com/}{Flames}] { \footnotesize Simple name game built with servlets}
+
+\end{description}
+
+\resheading{Certification}
+\begin{description}
+
+\item[Cisco Certified Network Associate] { \footnotesize Completed CCNA during October 2011. CSCO ID – CSCO11982736}
+
+\end{description}
+
+\newpage
+
+\resheading{Extra-curricular Engagements} 
+
+	\begin{description}
+		\item[Mozilla Community] {\footnotesize Member of Mozilla India community, served as lead for \href{https://wiki.mozilla.org/NeMo}{Project News Mozilla}.}
+		\item[Editor, \href{http://www.the4cast.com/author/dwarak}{4Cast}] {\footnotesize Review and write articles about gadgets and technology}
+		\item[Web Developer/Designer, \href{http://networkgeek.in/}{NetworkGeek}] {\footnotesize Developed the site for NetworkGeek training academy}
+	\end{description}
+
+\end{document}
+
