@@ -1,0 +1,79 @@
+Dwaraka Nath
+
+Contact
+=======
+
+dtsdwarak@gmail.com
+http://www.dwarak.in
+
+Education
+=========
+
+* Birla Institute of Technology and Science, Pilani - Master of Engineering in Software Systems; CGPA:8.346 [July 2014 – May 2016 (expected)]
+* SSN College of Engineering, Chennai - Bachelor of Engineering in ECE; CGPA:7.59 [August 2009 – May 2013]
+* DAV Boys Senior Secondary School, Chennai - AISSE; Percentage:94.2 [2009]
+
+Experience
+==========
+
+* Lister Technologies, Chennai - Software Engineer [July 2013 – July 2014]
+    – Web Development - Managing the organization’s entire website stack
+    – Product - Worked on a eCommerce product’s UI
+    – A Rails project for a US based client
+
+* Amazon, Bangalore - Software Engineering Intern [January 2016 – June 2016 (expected)]
+    – Working on Amazon.in - Seller Experience Platform
+    
+Skills
+======
+
+Languages: C/C++ with exposure to Java and Ruby
+Stack HTML/CSS/JavaScript, RoR, MySQL, MongoDB, DynamoDB
+Tools/Environment: *nix, vim, Git, Bash
+
+Individual Projects
+===================
+
+* SecretShare: 
+Firefox OS Mobile application to share secrets with Friends. Uses OneTimeSecret API, IndexedDB memory store & HTML/CSS/JavaScript for frontend. Published in Firefox OS Marketplace.
+
+* ComPair: 
+- Used to match your Facebook friends/peers and finds the best pair among the given choices. Built with Rails for backend, Bootstrap for UI and Facebook Graph API for user authentication, fetching data and posting/sharing content over Facebook timelines. 
+- Won the best creative appliation award at RedHat’s OpenShift DevConf 2014, Czech Republic
+
+* Lexico:
+Responsive web application that uses WebSpeech API. Dictionary powered by Wordnik API Fuse Dropbox like file collaboration framework within a LAN to share files. Used Google Plus API for user authentication, WebRTC for realtime video/audio streaming and chat. Designed the WebUI using HTML/CSS/JavaScript, Java
+servlets for backend and used MySQL for DB.
+
+Academic Projects
+=================
+
+* Plugin-free realtime communication via WEBRTC 
+WebRTC based realtime voice and video communication infrastructure with a web frontend 
+
+* Security Analysis of Bitcoin P2P Transactions 
+Analysis of Bitcoin P2P Transactions within the scope of user anonymity.
+
+* Faster and Secure MD5 
+Modification of MD5 hash algorithm using Wide Pipe and Fast Wide Pipe construction to improve the collision resistance and speed
+
+* Blind Source Separation using STFT and Spatial Sparsity 
+An approach to solve the Cocktail Party Problem - separate signals of distinct individuals by exploiting their Spatial Sparsity in frequency domain using Short
+Time Fourier Transform
+
+* TFIDF Computation using MPI 
+Parallel computation of distributed in-memory graph for text documents across multiple nodes using MPI
+
+* Building a DB specific kernel Compile a minimal kernel targeted at running only a single instance of database
+
+Certification
+==============
+
+Cisco Certified Network Associate Completed CCNA during October 2011. CSCO ID CSCO11982736
+
+Extra Curricular Engagements
+============================
+
+* Mozilla Community Member of Mozilla India community, served as lead for Project News Mozilla.
+* Editor, 4Cast Review and write articles about gadgets and technology
+* Web Developer/Designer, NetworkGeek Developed the site for NetworkGeek training academy
