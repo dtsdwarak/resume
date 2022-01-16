@@ -11,6 +11,7 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}   
 \usepackage[pdftex]{hyperref}
+\usepackage{ragged2e}
 \hypersetup{
     colorlinks,%
     citecolor=black,%
@@ -55,11 +56,11 @@
 
 \newcommand{\mywebheader}{
 \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
-	\textbf{\href{https://dwarak.in/}{\LARGE Dwaraka Nath}} & \href{mailto:dtsdwarak@gmail.com}{dtsdwarak@gmail.com}\\
-	{\footnotesize \texttt{\#17/66, 2nd Avenue, Prithivipakkam, Ambattur, Chennai.}} & \href{https://dwarak.in}{https://dwarak.in} \\
+	\textbf{\href{https://dwarak.in/}{\Huge Dwaraka Nath}} & \href{mailto:dtsdwarak@gmail.com}{dtsdwarak@gmail.com}\\
+	{} & \href{https://dwarak.in}{https://dwarak.in} \\
 	\end{tabular*}
 \\
-\vspace{0.1in}}
+\vspace{0.3in}}
 
 % CHANGE HEADER SOURCE HERE
 \mywebheader
@@ -80,11 +81,16 @@
 \resheading{Experience}
 	\begin{itemize}
 	    \item 
-			\ressubheading{\href{http://www.amazon.in/}{Amazon}}{Bangalore, India}
+			\ressubheading{\href{http://www.amazon.in/}{Amazon}}{Bengaluru, India}
 				{Software Development Engineer}{June 2016 -- Present}
 				{ \footnotesize
 				\begin{itemize}
-					\resitem{Working on Amazon.in  - Seller Experience Platform}
+					\resitem{\textbf{Working on Amazon.in  - Seller Experience Platform}, building tools and experiences for sellers worldwide}
+					\resitem{\textbf{Productionizing ML models} - Infrastructure and Orchestration Design for executing a bevy of Machine Learning models in production, used across the Seller and Fulfillment Technology platform to increase product coverage from less than 30\% to 85\%}. Invited to give a talk on the same at Amazon's Internal Tech Conference by Engineering Excellence Community.
+					\resitem{\textbf{Building Restock Recommendations Platform} - Lead Engineer for building backend and critical services for generating restock recommendations for sellers to manage inventory and customer demand with 99 percentile uptime for a strong 5.5L sellerbase in India marketplace}.
+					\resitem{\textbf{Initiatives to Increase Product Selection and Availability} - Lead Engineer for designing and building platform and backend services to improve the selection and availability of products in Amazon across various verticals like Product, Brand and Category. This project helped to prevent 25 million Out of Stock Glance Views for Amazon.in platform by 2020}
+					\resitem{\textbf{Mentoring and Leadership} - Mentoring and managing junior team members, influencing goal setting, leading the team's product and tech vision}
+					\resitem{\textbf{Design and Infrastructure Samurai} - Part of the org's Design Samurai to drive solutioning and architecture choices for the team and larger org}
 				\end{itemize}
 				}
 		\item 
@@ -101,23 +107,27 @@
 				{ \footnotesize
 				\begin{itemize}
 					\resitem{Web Development - Managing the organization's entire website stack}
-					\resitem{Product - Worked on a eCommerce product's UI}
-					\resitem{A Rails project for a US based client}
+					\resitem{Product - Worked on a eCommerce product's UI and backend.}
+					\resitem{A Rails project for a US based client. Created an end to end deployment pipeline with AWS and Jenkins}
 				\end{itemize}
 				}
 	\end{itemize}  % End Experience list
 
 %%%%%%%%%%%%%%%%%%%%%%
-\resheading{{Skills}}
+\resheading{{Technical Skills}}
 	\begin{description}
-		\item[Languages:] { \footnotesize C/C++, Java with exposure to Python and Ruby
+		\item[Languages:] { \footnotesize C/C++, Java with a little exposure to Python, Ruby, Node.js, Typescript and other JVM based languages like Scala, Kotlin
 		}
-		\item[Stack] { \footnotesize HTML/CSS/JavaScript, RoR, MySQL, PostgreSQL, Docker, Suite of AWS services - Athena, DynamoDB, Redshift, Kinesis, SQS, SNS, EC2, Fargate, ECS, EMR
+		\item[Frameworks/Stack] { \footnotesize HTML/CSS/JavaScript, RoR, ElasticSearch, MySQL, OracleDB, PostgreSQL, Graphql, REST, Hadoop (YARN and HDFS), HBase, Spark
 		}
-		\item[Tools/Environment:] {\footnotesize *nix, vim, Git, Bash/zsh
+		\item[AWS] {\footnotesize Suite of AWS services - Athena, API Gateway, DynamoDB, S3, Redshift, Kinesis, SQS, SNS, EC2, Fargate, ECS, ECR, EMR, Lambda, Cloudformation, Cloudwatch, CodeBuild, CodePipeline, CDK and Sagemaker
+		}
+		\item[Tools/Environment:] {\footnotesize *nix, vim, Git, Bash/zsh, Docker
 		}
 
 	\end{description} % End Skills list
+
+\newpage
 
 \resheading{\href{https://github.com/dtsdwarak/}{Individual Projects}}
 
@@ -132,24 +142,9 @@
 
 \item[\href{https://github.com/dtsdwarak/flames/}{Flames}] { \footnotesize Simple name game built with servlets}
 
-\end{description}
+\item[\href{https://github.com/dtsdwarak/buckbuckgo}{BuckBuckGo}] { \footnotesize Alternative frontend to DuckDuckGo Instant Answers API built with RoR}
 
-\newpage
 
-\resheading{{Academic Projects}}
-
-\begin{description}
-\item[\href{https://github.com/dtsdwarak/webrtc-demo}{Plugin-free realtime communication via WEBRTC}] { \footnotesize WebRTC based realtime voice and video communication infrastructure with a web frontend}
-
-\item[{Security Analysis of Bitcoin P2P Transactions}] { \footnotesize Analysis of Bitcoin P2P Transactions within the scope of user anonymity.}
-
-\item[{Faster and Secure MD5}] { \footnotesize Modification of MD5 hash algorithm using Wide Pipe and Fast Wide Pipe construction to improve the collision resistance and speed}
-
-\item[{Blind Source Separation using STFT and Spatial Sparsity}] { \footnotesize An approach to solve the Cocktail Party Problem - separate signals of distinct individuals by exploiting their Spatial Sparsity in frequency domain using Short Time Fourier Transform}
-
-\item[{TFIDF Computation using MPI}] {\footnotesize Parallel computation of distributed in-memory graph for text documents across multiple nodes using MPI}
-
-\item[{Building a DB specific kernel}] {\footnotesize Compile a minimal kernel targeted at running only a single instance of database}
 
 \end{description}
 
@@ -164,10 +159,9 @@
 
 	\begin{description}
 		\item[Mozilla Community] {\footnotesize Member of Mozilla India community, served as lead for \href{https://wiki.mozilla.org/NeMo}{Project News Mozilla}, a Mozilla sponsored global project to create regular newspaper articles on digital literacy, open web and data privacy in local languages to create awareness within communities and netizens. \color{red}{\bf Featured in The Hindu, India's leading newspaper - \href{https://www.thehindu.com/sci-tech/technology/Finding-NeMo-with-Mozilla/article12061751.ece}{Finding NeMo with Mozilla}}}
-		\item[Editor, \href{http://www.the4cast.com/author/dwarak}{4Cast}] {\footnotesize Review and write articles about gadgets and technology}
-		\item[Web Developer/Designer, \href{http://networkgeek.in/}{NetworkGeek}] {\footnotesize Developed the site for NetworkGeek training academy}
-		\item[Volunteer Teacher/Consultant, Teach For India]{\footnotesize Teaching school kids about internet safety, awareness and digital literacy}
-		\item[Open Source] {\footnotesize{ Have contributed to projects like ThoughtWorks' Go, \href{https://mpitutorial.com/about/}{MPITutorial.com} for learning/fun}}
+		\item[Editor, \href{http://www.the4cast.com/author/dwarak}{The4Cast Online Tech Magazine}] {\footnotesize Used to review and write articles about gadgets and technology in the past}
+		\item[Web Developer/Designer/Part-time Trainer, \href{https://www.networkgeek.in/}{NetworkGeek}] {\footnotesize Developed the site for NetworkGeek training academy. Also a part-time trainer.}
+		\item[Open Source] {\footnotesize{ Have contributed to projects like ThoughtWorks' Go - Free and  Opensource release automation server, \href{https://mpitutorial.com/about/}{MPITutorial.com} for learning/fun}}
 	\end{description}
 
 \end{document}
